@@ -42,3 +42,6 @@ createQuote("eat your vegetables!", printNewQuote);
 ```
 
 # test on https://jsconsole.com/
+
+# reference
+* https://forum.freecodecamp.org/t/javascript-callback-functions-explained-how-to-use-callbacks-in-javascript/14658
