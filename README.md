@@ -21,6 +21,7 @@ function printNewQuote(q) {
 }
 ```
 
+# callback function with 2 arguments
 ```
 function createQuote(quote, callback){ 
   var myQuote = "Like I always say, " + quote;
