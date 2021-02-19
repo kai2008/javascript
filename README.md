@@ -21,4 +21,23 @@ function printNewQuote(q) {
 }
 ```
 
+```
+function createQuote(quote, callback){ 
+  var myQuote = "Like I always say, " + quote;
+  callback(myQuote); // 2
+}
+
+// anonymous function callback
+createQuote("eat your vegetables!", function(q,p){ 
+  console.log(q,p); 
+});
+
+
+function printNewQuote(q, p) {
+	console.log(q,p);
+}
+
+createQuote("eat your vegetables!", printNewQuote);
+```
+
 # test on https://jsconsole.com/
